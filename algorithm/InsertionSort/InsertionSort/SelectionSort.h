@@ -1,4 +1,12 @@
 #pragma once
+#ifndef INC_04_INSERTION_SORT_SELECTIONSORT_H
+#define INC_04_INSERTION_SORT_SELECTIONSORT_H
+
+#include <iostream>
+#include <algorithm>
+
+using namespace std;
+
 template<typename T>
 void selectionSort(T arr[], int n) {
 
@@ -13,3 +21,5 @@ void selectionSort(T arr[], int n) {
 		swap(arr[i], arr[minIndex]);
 	}
 }
+
+#endif
